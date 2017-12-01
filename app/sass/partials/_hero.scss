@@ -1,7 +1,14 @@
 .hero {
 	width: 100%;
 	min-height: 100vh;
-	.parallax-container {
-		height: 100vh;
-	}
+	background: url('../../img/hero.png')center center no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	// .parallax-container {height: 100vh;}
+	//  .fadeIn {-vendor-animation-duration: 1s;}
+	// .parallax img {
+	// 	background-size: cover;
+	// }
 }

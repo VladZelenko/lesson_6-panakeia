@@ -12006,6 +12006,20 @@ body {
 
 .hero {
   width: 100%;
-  min-height: 100vh; }
-  .hero .parallax-container {
-    height: 100vh; }
+  min-height: 100vh;
+  background: url("../../img/hero.png") center center no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
