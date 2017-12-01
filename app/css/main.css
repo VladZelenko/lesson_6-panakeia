@@ -12035,15 +12035,39 @@ body {
     font: 700 30px "Roboto Slab", sans-serif; }
   .hero p {
     font: 300 15px/30px "Roboto", sans-serif; }
-  .hero .carousel {
-    min-height: 400px; }
 
-.hero-btn {
+.news {
+  width: 100%;
+  min-height: auto;
+  padding: 80px 0 90px 0;
+  color: #31353e; }
+  .news img {
+    margin: 85px 0 40px; }
+  .news h2.title {
+    font: 700 30px "Roboto Slab", sans-serif; }
+  .news h3.title {
+    margin-bottom: 15px;
+    font: 700 24px "Roboto Slab", sans-serif; }
+  .news p {
+    font: 300 15px/30px "Roboto", sans-serif; }
+
+.hero-btn, .news-btn {
   display: block;
   width: 215px;
   margin: 60px auto 0 auto;
   background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   color: #612316;
   font: 400 18px/55px "Roboto Slab", sans-serif;
   -webkit-border-radius: 27px;
           border-radius: 27px; }
+  .hero-btn:hover, .news-btn:hover {
+    background: #dd4b2b;
+    color: #ffffff;
+    border: 1px solid #dd4b2b;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out; }
+
+.news-btn {
+  color: #4e5159; }

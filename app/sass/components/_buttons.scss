@@ -3,7 +3,18 @@
 	width: 215px;
 	margin: 60px auto 0 auto;
 	background: $primary_font_color;
+	border: 1px solid rgba(255, 255, 255, 0.5);
 	color: $primary_btn_color;
 	font: 400 18px/55px $primary_font;
 	border-radius: 27px;
+	&:hover {
+		background: $accent_color;
+		color: $primary_font_color;
+		border: 1px solid $accent_color;
+		transition: all 0.7s ease-in-out;
+	}
 }
+ .news-btn  {
+ 	@extend .hero-btn;
+ 	color: $secondary_btn_color;
+ }
