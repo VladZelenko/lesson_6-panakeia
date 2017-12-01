@@ -1,14 +1,19 @@
 .hero {
+	padding: 490px 0 140px 0;
 	width: 100%;
-	min-height: 100vh;
+	min-height: auto;
 	background: url('../../img/hero.png')center center no-repeat;
 	background-size: cover;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
-	// .parallax-container {height: 100vh;}
-	//  .fadeIn {-vendor-animation-duration: 1s;}
-	// .parallax img {
-	// 	background-size: cover;
-	// }
+	h2.title {font: 300 72px $primary_font;}
+	.subtitle {font: 700 30px/48px $primary_font;}
+	img {margin: 130px 0 35px 0;}
+	h3.title {
+		margin-bottom: 15px;
+		font: 700 30px $primary_font;
+	}
+	p {font: 300 15px/30px $secondary_font;}
+	.carousel {min-height: 400px;}
 }

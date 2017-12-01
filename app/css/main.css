@@ -12005,8 +12005,9 @@ body {
             border-radius: 40px; }
 
 .hero {
+  padding: 490px 0 140px 0;
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
   background: url("../../img/hero.png") center center no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -12023,3 +12024,26 @@ body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  .hero h2.title {
+    font: 300 72px "Roboto Slab", sans-serif; }
+  .hero .subtitle {
+    font: 700 30px/48px "Roboto Slab", sans-serif; }
+  .hero img {
+    margin: 130px 0 35px 0; }
+  .hero h3.title {
+    margin-bottom: 15px;
+    font: 700 30px "Roboto Slab", sans-serif; }
+  .hero p {
+    font: 300 15px/30px "Roboto", sans-serif; }
+  .hero .carousel {
+    min-height: 400px; }
+
+.hero-btn {
+  display: block;
+  width: 215px;
+  margin: 60px auto 0 auto;
+  background: #ffffff;
+  color: #612316;
+  font: 400 18px/55px "Roboto Slab", sans-serif;
+  -webkit-border-radius: 27px;
+          border-radius: 27px; }
