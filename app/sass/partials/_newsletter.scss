@@ -1,0 +1,13 @@
+.newsletter {
+	padding: 110px 0;
+	width: 100%;
+	min-height: auto;
+	background: url("../../img/newsletter.png") center center no-repeat;
+	background-size: cover;
+	h2.title {font: 700 30px $primary_font;}
+	p {
+		max-width: 535px;
+		margin: 10px auto 45px auto;
+		font: 300 15px/24px $secondary_font;
+	}
+}
