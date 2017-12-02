@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+	.newsletter-form .form {
+		flex-flow: column wrap;
+		align-items: center;
+		input {
+			padding-left: 10px;
+		}
+		button {right: 0;}
+	}
+}

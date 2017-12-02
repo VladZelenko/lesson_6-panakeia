@@ -18,3 +18,10 @@
  	@extend .hero-btn;
  	color: $secondary_btn_color;
  }
+ .form button {
+ 	@extend .hero-btn;
+ 	margin: 0;
+ 	line-height: 53px;
+ 	position: relative;
+ 	right: 15px;
+ }
