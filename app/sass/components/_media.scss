@@ -1,3 +1,6 @@
+@media screen and (max-width: 1110px) {
+	.post:nth-child(2),  .post:nth-child(3){display: none;}
+}
 @media screen and (max-width: 600px) {
 	.newsletter-form .form {
 		flex-flow: column wrap;

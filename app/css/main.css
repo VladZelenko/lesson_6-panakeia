@@ -12065,6 +12065,23 @@ body {
     margin: 10px auto 45px auto;
     font: 300 15px/24px "Roboto", sans-serif; }
 
+.posts {
+  width: 100%;
+  min-height: auto;
+  padding: 10px 0 65px 0;
+  color: #191b29; }
+  .posts .post {
+    margin-top: 55px; }
+  .posts .post:nth-child(2), .posts .post:nth-child(3) {
+    max-width: 600px;
+    height: 410px;
+    border: 1px solid #dbdbdb; }
+  .posts .title {
+    font: 700 30px "Roboto Slab", sans-serif; }
+  .posts p {
+    padding: 20px 0 25px 0;
+    font: 300 16px/30px "Roboto", sans-serif; }
+
 .partners {
   width: 100%;
   min-height: 350px;
@@ -12084,7 +12101,7 @@ body {
   .footer b {
     font-weight: 700; }
 
-.hero-btn, .news-btn, .form button {
+.hero-btn, .news-btn, .form button, .posts-btn-1, .posts-btn-2 {
   display: block;
   width: 215px;
   margin: 60px auto 0 auto;
@@ -12094,7 +12111,7 @@ body {
   font: 400 18px/55px "Roboto Slab", sans-serif;
   -webkit-border-radius: 27px;
           border-radius: 27px; }
-  .hero-btn:hover, .news-btn:hover, .form button:hover {
+  .hero-btn:hover, .news-btn:hover, .form button:hover, .posts-btn-1:hover, .posts-btn-2:hover {
     background: #dd4b2b;
     color: #ffffff;
     border: 1px solid #dd4b2b;
@@ -12110,6 +12127,21 @@ body {
   line-height: 53px;
   position: relative;
   right: 15px; }
+
+.posts-btn-1, .posts-btn-2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: #ffffff;
+  background: #dd4b2b; }
+  .posts-btn-1:hover, .posts-btn-2:hover {
+    background-color: #4b4e73;
+    border: 1px solid #4b4e73; }
+
+.posts-btn-2 {
+  background-color: #4b4e73; }
+  .posts-btn-2:hover {
+    background: #dd4b2b;
+    border: 1px solid #dd4b2b; }
 
 .newsletter-form {
   max-width: 510px;
@@ -12129,6 +12161,10 @@ body {
       -webkit-border-radius: 27px;
               border-radius: 27px;
       border: 1px solid rgba(255, 255, 255, 0.5); }
+
+@media screen and (max-width: 1110px) {
+  .post:nth-child(2), .post:nth-child(3) {
+    display: none; } }
 
 @media screen and (max-width: 600px) {
   .newsletter-form .form {

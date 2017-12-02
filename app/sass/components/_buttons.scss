@@ -14,14 +14,33 @@
 		transition: all 0.7s ease-in-out;
 	}
 }
- .news-btn  {
- 	@extend .hero-btn;
- 	color: $secondary_btn_color;
- }
- .form button {
- 	@extend .hero-btn;
- 	margin: 0;
- 	line-height: 53px;
- 	position: relative;
- 	right: 15px;
- }
+.news-btn  {
+	@extend .hero-btn;
+	color: $secondary_btn_color;
+}
+.form button {
+	@extend .hero-btn;
+	margin: 0;
+	line-height: 53px;
+	position: relative;
+	right: 15px;
+}
+.posts-btn-1 {
+	@extend .hero-btn;
+	text-align: center;
+	margin: 20px 0 0 0;
+	color: $primary_font_color;
+	background: $accent_color;
+	&:hover {
+		background-color: #4b4e73;
+		border: 1px solid #4b4e73;
+	}
+}
+.posts-btn-2 {
+	@extend .posts-btn-1;
+	background-color: #4b4e73;
+	&:hover {
+		background: $accent_color;
+		border: 1px solid $accent_color;
+	}
+}
