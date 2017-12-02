@@ -1,0 +1,12 @@
+.footer {
+	width: 100%;
+	min-height: 370px;
+	padding: 85px 0;
+	background: url("../../img/newsletter.png")center center no-repeat;
+	p {
+		max-width: 740px;
+		margin: 0 auto;
+		font: 300 18px/24px $primary_font;
+	}
+	b {font-weight: 700;}
+}

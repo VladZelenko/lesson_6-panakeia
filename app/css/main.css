@@ -12065,6 +12065,18 @@ body {
     margin: 10px auto 45px auto;
     font: 300 15px/24px "Roboto", sans-serif; }
 
+.footer {
+  width: 100%;
+  min-height: 370px;
+  padding: 85px 0;
+  background: url("../../img/newsletter.png") center center no-repeat; }
+  .footer p {
+    max-width: 740px;
+    margin: 0 auto;
+    font: 300 18px/24px "Roboto Slab", sans-serif; }
+  .footer b {
+    font-weight: 700; }
+
 .hero-btn, .news-btn, .form button {
   display: block;
   width: 215px;
